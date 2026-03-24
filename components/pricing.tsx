@@ -101,20 +101,20 @@ export function Pricing() {
             </div>
           </AnimatedSection>
 
-          {/* Card 2 — Julia (Most Popular) — badge floats above, negative margin pulls card up to align tops */}
+          {/* Card 2 — Julia (Most Popular) — badge overlaps top edge 50%, card pulled up to align with siblings */}
           <AnimatedSection animation="fade-up" delay={150}>
-            <div className="relative -mt-8">
-              {/* Badge sits above the card, not clipped by overflow-hidden */}
-              <div className="flex justify-center mb-3">
-                <span className="shimmer inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-semibold text-[#050816]">
-                  <Sparkles className="h-3 w-3" />
-                  Most Popular
-                </span>
-              </div>
-              <div className="glass-card rounded-3xl overflow-hidden border border-[#D4AF37]/40 glow-gold">
+            <div className="relative -mt-4 pt-4">
+              <div className="glass-card rounded-3xl overflow-visible border border-[#D4AF37]/40 glow-gold relative">
+                {/* Badge — sits outside overflow, straddles the top edge 50/50 */}
+                <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-10">
+                  <span className="shimmer inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-semibold text-[#050816] whitespace-nowrap">
+                    <Sparkles className="h-3 w-3" />
+                    Most Popular
+                  </span>
+                </div>
                 <button
                   onClick={() => toggleCard("julia")}
-                  className="w-full p-8 text-left transition-colors hover:bg-white/5"
+                  className="w-full p-8 pt-10 text-left transition-colors hover:bg-white/5 rounded-3xl overflow-hidden"
                 >
                   <h3 className="text-xl font-bold text-foreground">Julia AI Receptionist</h3>
                   <div className="mt-4">
