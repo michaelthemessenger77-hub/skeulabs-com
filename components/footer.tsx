@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -8,7 +9,13 @@ export function Footer() {
           {/* Logo & Location */}
           <div className="flex flex-col items-center gap-4 md:items-start">
             <Link href="/" className="transition-transform hover:scale-105">
-              <span className="text-xl font-bold gradient-text">Skeu Labs</span>
+              <Image
+                src="/skeu-labs-logo.png"
+                alt="Skeu Labs"
+                width={160}
+                height={44}
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
           </div>

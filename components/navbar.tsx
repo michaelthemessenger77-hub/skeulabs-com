@@ -34,17 +34,15 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center">
           <Image
-            src="/images/skeu-icon.png"
+            src="/skeu-labs-logo.png"
             alt="Skeu Labs"
-            width={40}
-            height={40}
-            className="h-10 w-10"
+            width={180}
+            height={48}
+            className="h-10 w-auto"
+            priority
           />
-          <span className="text-xl font-bold tracking-tight gradient-text hidden sm:block">
-            Skeu Labs
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
