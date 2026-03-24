@@ -89,7 +89,7 @@ export function Pricing() {
                             </li>
                           ))}
                         </ul>
-                        <a href="https://buy.stripe.com/5kQdRbbmD7KTfgr7Qr2sM01" target="_blank" rel="noopener noreferrer"
+                        <a href="https://buy.stripe.com/9B66oJeyP3uD2tFfiT2sM04" target="_blank" rel="noopener noreferrer"
                           className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
                           Start Now
                         </a>
@@ -233,7 +233,7 @@ export function Pricing() {
                           </ul>
                         </div>
                       </div>
-                      <a href="https://buy.stripe.com/dRmfZj2Q7aX51pB3Ab2sM02" target="_blank" rel="noopener noreferrer"
+                      <a href="https://buy.stripe.com/dRmeVfgGX9T16JV2w72sM05" target="_blank" rel="noopener noreferrer"
                         className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
                         Get Started
                       </a>
