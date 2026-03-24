@@ -5,51 +5,54 @@ export function Footer() {
   return (
     <footer className="border-t border-[#D4AF37]/10 py-12">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
-          {/* Logo & Location */}
-          <div className="flex flex-col items-center gap-4 md:items-start">
-            <Link href="/" className="transition-transform hover:scale-105">
-              <Image
-                src="/skeu-labs-logo.png"
-                alt="Skeu Labs"
-                width={160}
-                height={44}
-                className="h-10 w-auto"
-              />
-            </Link>
-            <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
-          </div>
+        <div className="flex flex-col items-center gap-6 text-center">
+          {/* Logo */}
+          <Link href="/" className="transition-transform hover:scale-105">
+            <Image
+              src="/skeu-labs-logo.png"
+              alt="Skeu Labs"
+              width={160}
+              height={44}
+              className="h-10 w-auto"
+            />
+          </Link>
 
-          {/* Links */}
-          <div className="flex items-center gap-8">
+          {/* Tagline */}
+          <p className="text-sm text-muted-foreground">
+            AI-powered infrastructure for local service businesses.
+          </p>
+
+          {/* Nav links */}
+          <div className="flex flex-wrap items-center justify-center gap-8">
             <Link href="#services" className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors">
               Services
+            </Link>
+            <Link href="#how-it-works" className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors">
+              How It Works
             </Link>
             <Link href="#pricing" className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors">
               Pricing
             </Link>
             <a
+              href="mailto:support@skeulabs.com"
+              className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors"
+            >
+              Contact
+            </a>
+            <a
               href="https://skeu-portal.pages.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-semibold border border-[#D4AF37]/40 text-[#D4AF37] hover:bg-[#D4AF37]/10 transition-colors px-4 py-1.5 rounded-full"
+              className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors"
             >
               Client Login
             </a>
           </div>
 
-          {/* Contact & Copyright */}
-          <div className="flex flex-col items-center gap-2 md:items-end">
-            <a
-              href="mailto:Support@skeulabs.com"
-              className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors"
-            >
-              Support@skeulabs.com
-            </a>
-            <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Skeu Labs. All rights reserved.
-            </p>
-          </div>
+          {/* Copyright */}
+          <p className="text-sm text-muted-foreground/60">
+            &copy; {new Date().getFullYear()} Skeu Labs. Built in Phoenix, AZ.
+          </p>
         </div>
       </div>
     </footer>
