@@ -71,8 +71,8 @@ export function Pricing() {
                           ))}
                         </ul>
                         <a href="https://buy.stripe.com/00w28t1M33uD5FR5Ij2sM00" target="_blank" rel="noopener noreferrer"
-                          className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors border border-[#D4AF37]/30 text-foreground hover:bg-[#D4AF37]/10">
-                          Get My Website
+                          className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap border border-[#D4AF37]/30 text-foreground hover:bg-[#D4AF37]/10">
+                          Buy Now
                         </a>
                       </div>
                       <div className="rounded-2xl border border-[#D4AF37]/30 bg-[#D4AF37]/5 p-6">
@@ -90,8 +90,8 @@ export function Pricing() {
                           ))}
                         </ul>
                         <a href="https://buy.stripe.com/5kQdRbbmD7KTfgr7Qr2sM01" target="_blank" rel="noopener noreferrer"
-                          className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
-                          Get Website + Support
+                          className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
+                          Start Now
                         </a>
                       </div>
                     </div>
@@ -150,8 +150,8 @@ export function Pricing() {
                             ))}
                           </ul>
                           <a href="https://buy.stripe.com/dRmfZj2Q7aX51pB3Ab2sM02" target="_blank" rel="noopener noreferrer"
-                            className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors border border-[#D4AF37]/30 text-foreground hover:bg-[#D4AF37]/10">
-                            Get Julia Starter
+                            className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap border border-[#D4AF37]/30 text-foreground hover:bg-[#D4AF37]/10">
+                            Buy Starter
                           </a>
                         </div>
                         <div className="relative rounded-2xl border border-[#D4AF37]/30 bg-[#D4AF37]/5 p-6">
@@ -169,8 +169,8 @@ export function Pricing() {
                             ))}
                           </ul>
                           <a href="https://buy.stripe.com/7sYcN7eyP1mv3xJ2w72sM03" target="_blank" rel="noopener noreferrer"
-                            className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
-                            Get Julia Growth
+                            className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
+                            Buy Growth
                           </a>
                         </div>
                       </div>
@@ -234,8 +234,8 @@ export function Pricing() {
                         </div>
                       </div>
                       <a href="https://buy.stripe.com/dRmfZj2Q7aX51pB3Ab2sM02" target="_blank" rel="noopener noreferrer"
-                        className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
-                        Get the Full Package
+                        className="mt-6 w-full h-10 font-semibold inline-flex items-center justify-center rounded-md text-sm transition-colors whitespace-nowrap bg-[#D4AF37] text-[#050816] hover:bg-[#D4AF37]/90">
+                        Get Started
                       </a>
                     </div>
                   </div>
