@@ -1,40 +1,36 @@
 "use client"
 
-import { Globe, Phone, Wrench } from "lucide-react"
+import { FileText, PhoneForwarded, LayoutDashboard } from "lucide-react"
 import { AnimatedSection } from "@/components/animated-section"
 
 const steps = [
   {
     number: "01",
-    icon: Globe,
-    title: "We build your site in 48 hours",
-    description:
-      "Share your business details and we'll deliver a professional, mobile-optimized website ready to launch.",
+    icon: FileText,
+    title: "Tell Us About Your Business",
+    body: "You fill out a short intake form — your hours, services, how you want calls handled, emergency contacts, FAQs. Everything Julia needs to sound like she actually works for you. Most clients are done in under 20 minutes.",
   },
   {
     number: "02",
-    icon: Phone,
-    title: "Julia starts answering your calls",
-    description:
-      "Our AI receptionist handles inquiries, captures leads, and routes urgent calls — around the clock.",
+    icon: PhoneForwarded,
+    title: "Forward Your Calls, Your Way",
+    body: "We give you a dedicated number. Forward your after-hours line, your main line, or set a schedule — Julia only picks up exactly when you want her to. Your calls, your rules. No complicated phone system required.",
   },
   {
     number: "03",
-    icon: Wrench,
-    title: "You focus on the job",
-    description:
-      "Spend your time on what you do best while we make sure you never miss another customer.",
+    icon: LayoutDashboard,
+    title: "Watch It Work",
+    body: "You get a branded client dashboard to monitor every call, review transcripts, track leads, and adjust settings anytime. Julia handles the phones. You run the business.",
   },
 ]
 
 export function HowItWorks() {
   return (
-    <section id="about" className="relative py-24 md:py-32 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#D4AF37]/[0.02] to-transparent" />
-      
+    <section id="how-it-works" className="relative py-24 md:py-32">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(212,175,55,0.06)_0%,_transparent_60%)]" />
+
       <div className="relative mx-auto max-w-7xl px-6">
-        {/* Section Header */}
+        {/* Header */}
         <AnimatedSection className="mx-auto max-w-2xl text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full glass-card px-4 py-2">
             <span className="text-xs font-semibold uppercase tracking-wider text-[#D4AF37]">
@@ -42,49 +38,49 @@ export function HowItWorks() {
             </span>
           </div>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            Get Started in{" "}
-            <span className="gradient-text">Three Simple Steps</span>
+            Up and Running in{" "}
+            <span className="gradient-text">Under 48 Hours</span>
           </h2>
           <p className="mt-6 text-pretty text-lg text-muted-foreground">
-            From first contact to fully operational — we make it easy.
+            No IT team. No long setup calls. We handle everything — you just answer fewer phones.
           </p>
         </AnimatedSection>
 
         {/* Steps */}
-        <div className="mt-20 grid gap-8 md:grid-cols-3">
-          {steps.map((step, index) => (
-            <AnimatedSection key={step.number} animation="fade-up" delay={index * 150}>
-              <div className="relative">
-                {/* Connector Line */}
-                {index < steps.length - 1 && (
-                  <div className="absolute top-12 left-[calc(50%+4rem)] hidden h-px w-[calc(100%-8rem)] md:block">
-                    <div className="h-full w-full bg-gradient-to-r from-[#D4AF37]/50 via-[#D4AF37]/20 to-transparent" />
-                  </div>
-                )}
+        <div className="mt-20 relative">
+          {/* Connecting line — desktop only */}
+          <div className="absolute top-12 left-[calc(16.67%-1px)] right-[calc(16.67%-1px)] hidden h-px bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent lg:block" />
 
-                <div className="flex flex-col items-center text-center">
-                  {/* Step Icon Container */}
-                  <div className="relative animate-float" style={{ animationDelay: `${index * 0.5}s` }}>
-                    <div className="glass-card flex h-24 w-24 items-center justify-center rounded-3xl border border-[#D4AF37]/20 transition-all duration-300 hover:border-[#D4AF37]/50 hover:glow-gold-subtle">
-                      <step.icon className="h-10 w-10 text-[#D4AF37]" />
-                    </div>
-                    <span className="shimmer absolute -top-3 -right-3 flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-[#050816]">
+          <div className="grid gap-8 lg:grid-cols-3">
+            {steps.map((step, i) => (
+              <AnimatedSection key={step.number} animation="fade-up" delay={i * 150}>
+                <div className="relative flex flex-col items-center text-center lg:items-center">
+                  {/* Icon circle */}
+                  <div className="relative mb-6 flex h-24 w-24 items-center justify-center rounded-full glass-card border border-[#D4AF37]/30 glow-gold">
+                    <step.icon className="h-9 w-9 text-[#D4AF37]" />
+                    {/* Step number — top right */}
+                    <span className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-[#D4AF37] text-[10px] font-black text-[#050816]">
                       {step.number}
                     </span>
                   </div>
 
-                  {/* Content */}
-                  <h3 className="mt-8 text-xl font-bold text-foreground">
-                    {step.title}
-                  </h3>
-                  <p className="mt-4 text-muted-foreground leading-relaxed">
-                    {step.description}
-                  </p>
+                  <h3 className="text-xl font-bold text-foreground">{step.title}</h3>
+                  <p className="mt-4 text-muted-foreground leading-relaxed">{step.body}</p>
                 </div>
-              </div>
-            </AnimatedSection>
-          ))}
+              </AnimatedSection>
+            ))}
+          </div>
         </div>
+
+        {/* CTA nudge */}
+        <AnimatedSection animation="fade-up" delay={500} className="mt-16 text-center">
+          <a
+            href="#pricing"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[#D4AF37] hover:underline underline-offset-4"
+          >
+            See pricing and get started →
+          </a>
+        </AnimatedSection>
       </div>
     </section>
   )
