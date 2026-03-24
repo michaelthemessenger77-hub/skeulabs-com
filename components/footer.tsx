@@ -28,9 +28,14 @@ export function Footer() {
             <Link href="#pricing" className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors">
               Pricing
             </Link>
-            <Link href="#contact" className="text-sm text-muted-foreground hover:text-[#D4AF37] transition-colors">
-              Contact
-            </Link>
+            <a
+              href="https://skeu-portal.pages.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold border border-[#D4AF37]/40 text-[#D4AF37] hover:bg-[#D4AF37]/10 transition-colors px-4 py-1.5 rounded-full"
+            >
+              Client Login
+            </a>
           </div>
 
           {/* Contact & Copyright */}
