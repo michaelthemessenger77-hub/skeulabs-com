@@ -101,9 +101,9 @@ export function Pricing() {
             </div>
           </AnimatedSection>
 
-          {/* Card 2 — Julia (Most Popular) — badge is OUTSIDE the card, card has pt-8 to compensate */}
+          {/* Card 2 — Julia (Most Popular) — badge floats above, negative margin pulls card up to align tops */}
           <AnimatedSection animation="fade-up" delay={150}>
-            <div className="relative">
+            <div className="relative -mt-8">
               {/* Badge sits above the card, not clipped by overflow-hidden */}
               <div className="flex justify-center mb-3">
                 <span className="shimmer inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-semibold text-[#050816]">
