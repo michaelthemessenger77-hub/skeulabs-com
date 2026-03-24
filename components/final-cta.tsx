@@ -52,10 +52,10 @@ export function FinalCTA() {
               <p className="mt-8 text-muted-foreground">
                 Or email us at{" "}
                 <a
-                  href="mailto:Support@skeulabs.com"
+                  href="mailto:support@skeulabs.com"
                   className="font-semibold text-[#D4AF37] hover:underline transition-colors"
                 >
-                  Support@skeulabs.com
+                  support@skeulabs.com
                 </a>
               </p>
             </div>
