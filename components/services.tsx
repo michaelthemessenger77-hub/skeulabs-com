@@ -9,7 +9,7 @@ const services = [
     title: "Julia — AI Receptionist",
     status: "Live",
     description:
-      "24/7 call answering powered by AI. Julia answers in your brand's voice, captures leads, routes emergencies, and logs every call with a full transcript. Setup in days, not months.",
+      "24/7 call answering powered by AI. Julia answers in your brand's voice, captures leads, routes emergencies, and logs every call with a full transcript. Setup in days, not months. Powered by Cartesia Sonic 3 — the most natural-sounding AI voice available.",
     features: ["24/7 availability", "Lead capture & qualification", "Emergency routing", "Call transcripts & recordings", "Client portal dashboard"],
     cta: "Get Julia",
     href: "#pricing",
@@ -27,21 +27,21 @@ const services = [
   {
     icon: Star,
     title: "Reviews Dashboard",
-    status: "Coming Soon",
+    status: "Live",
     description:
       "Automated review outreach, response management, and reputation tracking across Google, Yelp, and more. Turn satisfied customers into your best sales team.",
     features: ["Automated review requests", "Response management", "Multi-platform tracking", "Reputation analytics"],
-    cta: "Join Waitlist",
-    href: "#contact",
+    cta: "Included in Growth Plan",
+    href: "#pricing",
   },
   {
     icon: Share2,
     title: "Social Media Management",
-    status: "Coming Soon",
+    status: "Live",
     description:
-      "From basic monitoring to a full content pipeline — we handle your social presence so you can handle your business. Powered by n8n automation.",
-    features: ["Content scheduling", "Brand monitoring", "Engagement tracking", "Automated pipelines"],
-    cta: "Join Waitlist",
+      "A full automated content pipeline — we handle your social presence so you can handle your business. Powered by n8n automation, posts go out while youre on the job.",
+    features: ["Automated content scheduling", "Brand monitoring", "Engagement tracking", "AI-generated posts in your voice"],
+    cta: "Ask About Social",
     href: "#contact",
   },
 ]

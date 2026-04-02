@@ -73,7 +73,7 @@ export function Hero() {
           {/* Industry tags */}
           <AnimatedSection animation="fade-up" delay={420}>
             <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
-              {["Pools", "HVAC", "Electrical", "Plumbing", "Contractors"].map((industry) => (
+              {["Roofing", "HVAC", "Plumbing", "Electrical", "Pools", "Contractors"].map((industry) => (
                 <span
                   key={industry}
                   className="rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-muted-foreground"
