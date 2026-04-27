@@ -147,22 +147,24 @@ export function DemoBooking() {
             </div>
           </AnimatedSection>
 
-          {/* Card B — Secondary */}
+          {/* Card B — Interactive Demo */}
           <AnimatedSection animation="fade-up" delay={200}>
             <div className="glass-card rounded-3xl p-8 md:p-10 relative overflow-hidden h-full flex flex-col">
               <h3 className="text-xl font-bold text-foreground md:text-2xl">
-                Prefer to Talk to a Human First?
+                See the Dashboard in Action
               </h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Want someone from our team to walk you through it? Reach out directly and we&apos;ll set up a time that works for you.
+                Take a self-guided tour of what your client dashboard looks like — calls, transcripts, settings, and more.
               </p>
-              <div className="mt-8 flex-1 flex items-end">
-                <a
-                  href="mailto:ross@skeulabs.com?subject=Demo Request"
-                  className="w-full h-12 rounded-lg border border-[#D4AF37]/40 text-[#D4AF37] hover:bg-[#D4AF37]/10 text-base font-semibold inline-flex items-center justify-center transition-colors"
-                >
-                  Get in Touch &rarr;
-                </a>
+              <div className="mt-6 flex-1 rounded-xl overflow-hidden border border-white/10">
+                <iframe
+                  src="https://app.supademo.com/embed/cmnrxk46o2yskcr4jibops1x0?embed_v=2&embed_no_border=1&embed_expandable=1&embed_fullscreen_button=1"
+                  loading="lazy"
+                  title="Skeu Labs Dashboard Demo"
+                  allow="clipboard-write"
+                  className="w-full h-full min-h-[400px]"
+                  style={{ border: "none" }}
+                />
               </div>
             </div>
           </AnimatedSection>
