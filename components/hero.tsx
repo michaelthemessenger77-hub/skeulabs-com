@@ -55,7 +55,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a
-                href="#services"
+                href="#demo"
                 className="btn-animated w-full sm:w-auto h-14 px-8 border border-white/20 bg-transparent text-foreground hover:bg-white/5 inline-flex items-center justify-center rounded-md text-sm font-semibold"
               >
                 Hear Julia Answer a Call
