@@ -49,6 +49,21 @@ export function Footer() {
             </a>
           </div>
 
+          {/* SEO cluster links */}
+          <div className="pt-6 border-t border-[#D4AF37]/10 w-full">
+            <p className="text-xs text-muted-foreground/40 uppercase tracking-wider mb-3">AI Receptionist Services in Phoenix</p>
+            <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+              <Link href="/ai-receptionist-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">AI Receptionist Phoenix</Link>
+              <Link href="/ai-receptionist-for-hvac-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">HVAC</Link>
+              <Link href="/ai-receptionist-for-plumbers-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Plumbers</Link>
+              <Link href="/ai-receptionist-for-electricians-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Electricians</Link>
+              <Link href="/ai-receptionist-for-roofers-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Roofers</Link>
+              <Link href="/ai-receptionist-for-dentists-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Dentists</Link>
+              <Link href="/ai-receptionist-for-pool-companies-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Pool Companies</Link>
+              <Link href="/ai-receptionist-for-property-management-phoenix" className="text-xs text-muted-foreground/60 hover:text-[#D4AF37] transition-colors">Property Management</Link>
+            </div>
+          </div>
+
           {/* Copyright */}
           <p className="text-sm text-muted-foreground/60">
             &copy; {new Date().getFullYear()} Skeu Labs. Built in Phoenix, AZ.
