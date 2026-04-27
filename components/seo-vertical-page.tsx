@@ -71,7 +71,7 @@ export function SeoVerticalPage({
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_center,_rgba(212,175,55,0.1)_0%,_transparent_50%)]"></div>
         <div className="relative mx-auto max-w-4xl px-6">
           {/* Breadcrumbs */}
-          <div className="animate-fade-in-up" style={{ transitionDelay: "0ms" }}>
+          <div className="" style={{ transitionDelay: "0ms" }}>
             <div className="mb-8 text-sm text-muted-foreground">
               <Link className="hover:text-[#D4AF37] transition-colors" href="/">
                 Home
@@ -88,7 +88,7 @@ export function SeoVerticalPage({
           </div>
 
           {/* Title */}
-          <div className="animate-fade-in-up" style={{ transitionDelay: "100ms" }}>
+          <div className="" style={{ transitionDelay: "100ms" }}>
             <h1 className="text-3xl font-extrabold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-[1.1]">
               AI Receptionist for{" "}
               <span className="gradient-text">{industry}</span> in {city}
@@ -96,14 +96,14 @@ export function SeoVerticalPage({
           </div>
 
           {/* Pain point */}
-          <div className="animate-fade-in-up" style={{ transitionDelay: "200ms" }}>
+          <div className="" style={{ transitionDelay: "200ms" }}>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
               {pain}
             </p>
           </div>
 
           {/* CTAs */}
-          <div className="animate-fade-in-up" style={{ transitionDelay: "300ms" }}>
+          <div className="" style={{ transitionDelay: "300ms" }}>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 target="_blank"
@@ -124,7 +124,7 @@ export function SeoVerticalPage({
           </div>
 
           {/* Why section */}
-          <div className="animate-fade-in-up mt-20" style={{ transitionDelay: "400ms" }}>
+          <div className="mt-20" style={{ transitionDelay: "400ms" }}>
             <div className="glass-card rounded-2xl p-8 md:p-10">
               <h2 className="text-2xl font-bold text-foreground">
                 Why {industry} in {city} Choose Julia
@@ -147,7 +147,7 @@ export function SeoVerticalPage({
           </div>
 
           {/* Stats */}
-          <div className="animate-fade-in-up mt-12" style={{ transitionDelay: "500ms" }}>
+          <div className="mt-12" style={{ transitionDelay: "500ms" }}>
             <div className="glass-card rounded-2xl p-8">
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
@@ -170,7 +170,7 @@ export function SeoVerticalPage({
           </div>
 
           {/* Bottom CTA */}
-          <div className="animate-fade-in-up mt-12" style={{ transitionDelay: "600ms" }}>
+          <div className="mt-12" style={{ transitionDelay: "600ms" }}>
             <div className="glass-card rounded-2xl p-8 md:p-10 border border-[#D4AF37]/20 text-center">
               <h2 className="text-2xl font-bold text-foreground">
                 Ready to Stop Missing Calls?
@@ -197,7 +197,7 @@ export function SeoVerticalPage({
           </div>
 
           {/* Related verticals */}
-          <div className="animate-fade-in-up mt-12" style={{ transitionDelay: "700ms" }}>
+          <div className="mt-12" style={{ transitionDelay: "700ms" }}>
             <div className="space-y-4">
               <Link
                 className="block glass-card rounded-xl p-4 hover:border-[#D4AF37]/20 border border-transparent transition-colors"

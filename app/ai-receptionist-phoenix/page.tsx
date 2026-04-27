@@ -119,7 +119,7 @@ export default function AIReceptionistPhoenixPage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_center,_rgba(212,175,55,0.1)_0%,_transparent_50%)]"></div>
         <div className="relative mx-auto max-w-5xl px-6">
           {/* Breadcrumbs */}
-          <div className="animate-fade-in-up" style={{ transitionDelay: "0ms" }}>
+          <div className="" style={{ transitionDelay: "0ms" }}>
             <div className="mb-8 text-sm text-muted-foreground">
               <Link className="hover:text-[#D4AF37] transition-colors" href="/">
                 Home
@@ -130,7 +130,7 @@ export default function AIReceptionistPhoenixPage() {
 
           {/* Title */}
           <div
-            className="animate-fade-in-up"
+            className=""
             style={{ transitionDelay: "100ms" }}
           >
             <h1 className="text-3xl font-extrabold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-[1.1]">
@@ -141,7 +141,7 @@ export default function AIReceptionistPhoenixPage() {
 
           {/* Subtitle */}
           <div
-            className="animate-fade-in-up"
+            className=""
             style={{ transitionDelay: "200ms" }}
           >
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
@@ -154,7 +154,7 @@ export default function AIReceptionistPhoenixPage() {
 
           {/* CTAs */}
           <div
-            className="animate-fade-in-up"
+            className=""
             style={{ transitionDelay: "300ms" }}
           >
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -178,7 +178,7 @@ export default function AIReceptionistPhoenixPage() {
 
           {/* Industry Grid */}
           <div
-            className="animate-fade-in-up mt-20"
+            className="mt-20"
             style={{ transitionDelay: "400ms" }}
           >
             <h2 className="text-2xl font-bold text-foreground md:text-3xl">
@@ -248,7 +248,7 @@ export default function AIReceptionistPhoenixPage() {
 
           {/* Bottom CTA */}
           <div
-            className="animate-fade-in-up mt-12"
+            className="mt-12"
             style={{ transitionDelay: "600ms" }}
           >
             <div className="glass-card rounded-2xl p-8 md:p-10 border border-[#D4AF37]/20 text-center">

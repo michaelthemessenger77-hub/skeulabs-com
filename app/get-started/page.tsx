@@ -113,7 +113,7 @@ function GetStartedContent() {
         <div className="relative mx-auto max-w-5xl px-6">
           {/* Title */}
           <div
-            className="animate-fade-in-up text-center"
+            className="text-center"
             style={{ transitionDelay: "100ms" }}
           >
             <h1 className="text-3xl font-extrabold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-[1.1]">
@@ -128,7 +128,7 @@ function GetStartedContent() {
 
           {/* How it works */}
           <div
-            className="animate-fade-in-up mt-16"
+            className="mt-16"
             style={{ transitionDelay: "200ms" }}
           >
             <div className="grid gap-8 sm:grid-cols-3">
@@ -179,7 +179,7 @@ function GetStartedContent() {
 
           {/* Plans */}
           <div
-            className="animate-fade-in-up mt-16"
+            className="mt-16"
             style={{ transitionDelay: "300ms" }}
           >
             <div className="grid gap-6 lg:grid-cols-3">
